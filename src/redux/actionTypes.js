@@ -1,0 +1,4 @@
+export const ADDCART = "ADDCART";
+export const ADDLIKE="ADDLIKE";
+//export const SET_LIKED_PRODUCTS = 'SET_LIKED_PRODUCTS';
+//export const ADD_LIKED_PRODUCT = "ADD_LIKED_PRODUCT";
