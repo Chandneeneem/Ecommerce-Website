@@ -2,9 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { TbTruckDelivery } from 'react-icons/tb'
-import { AiOutlineAppstoreAdd } from 'react-icons/ai'
 import { TbClock24 } from 'react-icons/tb'
-
+import { AiOutlineAppstoreAdd } from 'react-icons/ai'
 
 const Home1 = () => {
 

@@ -2,10 +2,7 @@ import * as ACTIONTYPES from '../actionTypes'
 
 export const initialState = {
     addCarts: [],
-    likedProducts:[],
-
-
-
+    likedProducts: [],
 
 };
 export default function auth(state = initialState, action) {
@@ -18,7 +15,13 @@ export default function auth(state = initialState, action) {
                 addCarts: action.payload,
             };
 
-      {/*}
+            //  case ACTIONTYPES.ADDLIKE:
+            //     return{
+            //         ...state,
+            //         likedProducts:action.payload,
+            //     } ;
+
+            {/*}
             case ACTIONTYPES.ADDLIKE:
                 return {
                   ...state,
